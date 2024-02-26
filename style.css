@@ -31,7 +31,7 @@ header {
 
 .nav-item {
   position: relative;
-  color: #fff;
+  color: #0019ff;
   font-size: 1rem;
   font-weight: 500;
   line-height: 25px;
@@ -42,7 +42,7 @@ header {
 }
 
 .nav-item:hover {
-  color: rgb(168, 239, 255, 0.9);
+  color: rgba(111, 148, 243, 0.639);
 }
 
 .nav-item::after {
@@ -240,7 +240,7 @@ header {
     height: 0;
     background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(50px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
     overflow: hidden;
     transition: all 0.3s ease;
   }
@@ -251,11 +251,10 @@ header {
 
   .nav-item {
     display: block;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin: 2rem 0;
     text-align: center;
     transform: translateY(-50px);
-    opacity: 0;
     transition: all 0.3s ease;
   }
 
